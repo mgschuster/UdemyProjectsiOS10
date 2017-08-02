@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageTheScroll" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="9Ox-dA-19W">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="fx7-Bh-cTv">
+                                <rect key="frame" x="265" y="30" width="94" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="gj5-Ol-LMy"/>
+                                    <constraint firstAttribute="width" constant="94" id="tVM-W0-cYG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="vB1-h6-lvq">
+                                <rect key="frame" x="0.0" y="458" width="375" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="egx-Od-m8G"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qg-EF-ctG">
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="dZW-md-ul6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Ox-dA-19W" secondAttribute="bottom" id="7Da-LV-ulJ"/>
+                            <constraint firstItem="3Qg-EF-ctG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7vB-QZ-sjJ"/>
+                            <constraint firstAttribute="trailing" secondItem="vB1-h6-lvq" secondAttribute="trailing" id="Dt2-oz-3fh"/>
+                            <constraint firstItem="9Ox-dA-19W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="F1g-2k-UwL"/>
+                            <constraint firstItem="fx7-Bh-cTv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="J2b-Uw-ud2"/>
+                            <constraint firstItem="vB1-h6-lvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X4Q-ev-gTO"/>
+                            <constraint firstItem="3Qg-EF-ctG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dxr-pM-E6G"/>
+                            <constraint firstAttribute="trailing" secondItem="9Ox-dA-19W" secondAttribute="trailing" id="eW4-MV-jg7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3Qg-EF-ctG" secondAttribute="bottom" id="jFl-8A-6jn"/>
+                            <constraint firstItem="9Ox-dA-19W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pCh-b7-HLp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vB1-h6-lvq" secondAttribute="bottom" id="pIP-VE-QDo"/>
+                            <constraint firstItem="fx7-Bh-cTv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uPs-la-Bo7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="3Qg-EF-ctG" id="Z1i-pl-Paw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="255"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mountains" width="375" height="100"/>
+        <image name="Sky" width="375" height="667"/>
+        <image name="Sun" width="53" height="53"/>
+    </resources>
+</document>
