@@ -138,6 +138,7 @@
 				TargetAttributes = {
 					84FB587A1F3216290004B1B7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JE8VMAJF52;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -362,6 +363,7 @@
 			baseConfigurationReference = 91946518E9DB95567D1CD337 /* Pods-RainyShinyCloudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = RainyShinyCloudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tjschoost.RainyShinyCloudy;
@@ -376,6 +378,7 @@
 			baseConfigurationReference = 76CF16A1E58C3E19F035473D /* Pods-RainyShinyCloudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = RainyShinyCloudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tjschoost.RainyShinyCloudy;
