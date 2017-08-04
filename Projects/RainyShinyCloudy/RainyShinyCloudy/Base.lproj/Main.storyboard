@@ -83,7 +83,7 @@
                                 <rect key="frame" x="0.0" y="300" width="375" height="367"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="weatherCell" rowHeight="80" id="Rwo-MG-lHK">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="weatherCell" rowHeight="80" id="Rwo-MG-lHK" customClass="WeatherCell" customModule="RainyShinyCloudy" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rwo-MG-lHK" id="QzN-IC-LPd">
@@ -91,19 +91,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6R7-u1-Uce">
-                                                    <rect key="frame" x="74" y="18" width="273" height="44"/>
+                                                    <rect key="frame" x="74" y="18" width="273" height="43"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="YYu-Ad-XIX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="136.5" height="44"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="136.5" height="43"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Df-HB-bq2">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="76" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="76" height="21.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloudy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbc-L7-K6W">
-                                                                    <rect key="frame" x="0.0" y="22" width="56" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="21.5" width="56" height="21.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -111,16 +111,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="39i-3W-dey">
-                                                            <rect key="frame" x="136.5" y="0.0" width="136.5" height="44"/>
+                                                            <rect key="frame" x="136.5" y="0.0" width="136.5" height="43"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="76.5°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xga-Lf-TUp">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="136.5" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="136.5" height="21.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="65.4°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfY-gl-19g">
-                                                                    <rect key="frame" x="0.0" y="22" width="136.5" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="21.5" width="136.5" height="21.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -149,6 +149,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="dayLabel" destination="8Df-HB-bq2" id="nY5-KJ-RYN"/>
+                                            <outlet property="highTemp" destination="Xga-Lf-TUp" id="r3C-PG-jN2"/>
+                                            <outlet property="lowTemp" destination="xfY-gl-19g" id="B6V-gH-rQz"/>
+                                            <outlet property="weatherIcon" destination="Nys-kV-dcc" id="mb4-BM-KfW"/>
+                                            <outlet property="weatherType" destination="zbc-L7-K6W" id="eGI-sb-Rxz"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -175,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364" y="164"/>
+            <point key="canvasLocation" x="-438" y="209"/>
         </scene>
     </scenes>
 </document>
