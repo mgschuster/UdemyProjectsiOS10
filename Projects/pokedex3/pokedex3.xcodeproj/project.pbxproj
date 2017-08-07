@@ -12,6 +12,7 @@
 		84CA13CB1F38912800CE6ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA13C91F38912800CE6ED1 /* Main.storyboard */; };
 		84CA13CD1F38912800CE6ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA13CC1F38912800CE6ED1 /* Assets.xcassets */; };
 		84CA13D01F38912800CE6ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA13CE1F38912800CE6ED1 /* LaunchScreen.storyboard */; };
+		84CA13D81F38943E00CE6ED1 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 84CA13D71F38943E00CE6ED1 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84CA13CC1F38912800CE6ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CA13CF1F38912800CE6ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CA13D11F38912800CE6ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA13D71F38943E00CE6ED1 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				84CA13C71F38912800CE6ED1 /* ViewController.swift */,
 				84CA13C91F38912800CE6ED1 /* Main.storyboard */,
 				84CA13CC1F38912800CE6ED1 /* Assets.xcassets */,
+				84CA13D71F38943E00CE6ED1 /* pokemon.csv */,
 				84CA13CE1F38912800CE6ED1 /* LaunchScreen.storyboard */,
 				84CA13D11F38912800CE6ED1 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				84CA13D01F38912800CE6ED1 /* LaunchScreen.storyboard in Resources */,
 				84CA13CD1F38912800CE6ED1 /* Assets.xcassets in Resources */,
+				84CA13D81F38943E00CE6ED1 /* pokemon.csv in Resources */,
 				84CA13CB1F38912800CE6ED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				84CA13D61F38912800CE6ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
