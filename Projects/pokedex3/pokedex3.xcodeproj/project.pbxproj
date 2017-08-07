@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		845AB10C1F389B2400560C1E /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AB10B1F389B2400560C1E /* PokeCell.swift */; };
+		845AB10E1F38A0F100560C1E /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AB10D1F38A0F100560C1E /* csv.swift */; };
 		84CA13C61F38912800CE6ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA13C51F38912800CE6ED1 /* AppDelegate.swift */; };
 		84CA13C81F38912800CE6ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA13C71F38912800CE6ED1 /* ViewController.swift */; };
 		84CA13CB1F38912800CE6ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA13C91F38912800CE6ED1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		845AB10B1F389B2400560C1E /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		845AB10D1F38A0F100560C1E /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		84CA13C21F38912800CE6ED1 /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CA13C51F38912800CE6ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CA13C71F38912800CE6ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				84CA13C51F38912800CE6ED1 /* AppDelegate.swift */,
 				84CA13C71F38912800CE6ED1 /* ViewController.swift */,
 				84CA13C91F38912800CE6ED1 /* Main.storyboard */,
+				845AB10D1F38A0F100560C1E /* csv.swift */,
 				84CA13CC1F38912800CE6ED1 /* Assets.xcassets */,
 				84CA13D71F38943E00CE6ED1 /* pokemon.csv */,
 				84CA13CE1F38912800CE6ED1 /* LaunchScreen.storyboard */,
@@ -121,6 +124,7 @@
 				TargetAttributes = {
 					84CA13C11F38912800CE6ED1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +170,7 @@
 				84CA13C81F38912800CE6ED1 /* ViewController.swift in Sources */,
 				84CA13C61F38912800CE6ED1 /* AppDelegate.swift in Sources */,
 				84CA13DB1F38952500CE6ED1 /* Pokemon.swift in Sources */,
+				845AB10E1F38A0F100560C1E /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
