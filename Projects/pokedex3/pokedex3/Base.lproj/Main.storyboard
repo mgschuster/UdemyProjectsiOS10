@@ -172,7 +172,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ivysaur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdZ-0J-ZLF">
-                                        <rect key="frame" x="149" y="30" width="77.5" height="33"/>
+                                        <rect key="frame" x="149" y="29" width="77.5" height="33"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -181,7 +181,7 @@
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="13r-vj-aBi" secondAttribute="bottom" constant="8" id="LN3-nt-KWp"/>
-                                    <constraint firstItem="WdZ-0J-ZLF" firstAttribute="centerY" secondItem="ySg-ZU-A1E" secondAttribute="centerY" constant="14" id="MMS-5v-QqO"/>
+                                    <constraint firstItem="WdZ-0J-ZLF" firstAttribute="centerY" secondItem="ySg-ZU-A1E" secondAttribute="centerY" constant="13" id="MMS-5v-QqO"/>
                                     <constraint firstItem="13r-vj-aBi" firstAttribute="leading" secondItem="ySg-ZU-A1E" secondAttribute="leading" constant="8" id="ifq-p0-UVF"/>
                                     <constraint firstAttribute="height" constant="65" id="tPQ-Mf-UyL"/>
                                     <constraint firstItem="WdZ-0J-ZLF" firstAttribute="centerX" secondItem="ySg-ZU-A1E" secondAttribute="centerX" id="v3A-sF-8IV"/>
