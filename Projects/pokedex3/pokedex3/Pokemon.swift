@@ -188,12 +188,7 @@ class Pokemon {
                             }
                         }
                         
-                    }
-                    
-                    print(self.nextEvolutionLevel)
-                    print(self.nextEvolutionName)
-                    print(self.nextEvolutionId)
-                    
+                    }                    
                 }
             }
             

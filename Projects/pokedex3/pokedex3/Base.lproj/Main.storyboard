@@ -224,24 +224,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q0g-J1-PQW">
-                                <rect key="frame" x="16" y="85" width="343" height="278.5"/>
+                                <rect key="frame" x="16" y="85" width="343" height="240.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s2C-XI-GVM">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="158"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="120"/>
                                         <subviews>
-                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rV1-ag-McT">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="29"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="28" id="0oO-GU-PtU"/>
-                                                </constraints>
-                                                <segments>
-                                                    <segment title="Bio"/>
-                                                    <segment title="Moves"/>
-                                                </segments>
-                                                <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </segmentedControl>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kmy-tt-Oar">
-                                                <rect key="frame" x="0.0" y="38" width="343" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="120"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bzw-Dn-XKJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -259,13 +248,9 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="rV1-ag-McT" secondAttribute="trailing" id="JaN-AH-ZqX"/>
-                                            <constraint firstItem="rV1-ag-McT" firstAttribute="leading" secondItem="s2C-XI-GVM" secondAttribute="leading" id="NaG-33-8mY"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2iA-Xd-tBs">
-                                        <rect key="frame" x="0.0" y="178" width="343" height="100.5"/>
+                                        <rect key="frame" x="0.0" y="140" width="343" height="100.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="UYD-rr-pku">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
