@@ -58,7 +58,7 @@ class PokemonDetailVC: UIViewController {
             nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
             
             if pokemon.nextEvolutionLevel == "" {
-                let str1 = "Pokemon evolves non-traditionally"
+                let str1 = "Pokémon evolves non-traditionally"
                 evoLbl.text = str1
             } else {
                 let str = "Next Evolution: \(pokemon.nextEvolutionName) - LVL \(pokemon.nextEvolutionLevel)"
