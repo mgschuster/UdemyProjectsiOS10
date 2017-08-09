@@ -230,7 +230,7 @@
 				TargetAttributes = {
 					045AD8B11D4656E3001287E6 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NUW936ZHH8;
+						DevelopmentTeam = JE8VMAJF52;
 						DevelopmentTeamName = "Devslopes, LLC";
 						ProvisioningStyle = Automatic;
 					};
@@ -439,9 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = TacoPOP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.TacoPOP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TJSchoost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -451,9 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = TacoPOP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.TacoPOP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TJSchoost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
