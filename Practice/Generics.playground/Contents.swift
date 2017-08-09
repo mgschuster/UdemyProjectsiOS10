@@ -1,5 +1,3 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
 
 func intAdder(number: Int) -> Int {
@@ -18,4 +16,20 @@ func genericAdder<T: Strideable>(number: T) -> T {
     return number + 1
 }
 
+genericAdder(number: 15)
+genericAdder(number: 15.0)
 
+protocol Numeric {
+    func *(lhs: Self, rhs: Self) -> Self
+}
+
+extension Double: Numeric {}
+extension Float: Numeric {}
+extension Int: Numeric {}
+
+func genericMultiplier<T: Numeric>(lhs: T, rhs: T) -> T {
+    return lhs * rhs
+}
+
+genericMultiplier(lhs: 5, rhs: 5)
+genericMultiplier(lhs: 3.14, rhs: 5)
