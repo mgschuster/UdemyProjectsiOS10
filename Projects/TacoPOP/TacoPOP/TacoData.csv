@@ -1,0 +1,17 @@
+id,productName,shellId,proteinId,condimentsId,imageId
+1,"Loaded Flour Chicken Taco",1,2,1,2
+2,"Loaded Corn Chicken Taco",2,2,1,2
+3,"Plain Flour Chicken Taco",1,2,2,2
+4,"Plain Corn Chicken Taco",2,2,2,2
+5,"Loaded Flour Beef Taco",1,1,1,1
+6,"Loaded Corn Beef Taco",2,1,1,1
+7,"Plain Flour Beef Taco",1,1,2,1
+8,"Plain Corn Beef Taco",2,1,2,1
+9,"Loaded Flour Brisket Taco",1,3,1,3
+10,"Loaded Corn Brisket Taco",2,3,1,3
+11,"Plain Flour Brisket Taco",1,3,2,3
+12,"Plain Corn Brisket Taco",2,3,2,3
+13,"Loaded Flour Fish Taco",1,4,1,4
+13,"Loaded Corn Fish Taco",2,4,1,4
+14,"Plain Flour Fish Taco",1,4,2,4
+15,"Plain Corn Fish Taco",2,4,2,4
