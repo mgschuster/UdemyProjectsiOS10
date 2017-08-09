@@ -20,7 +20,7 @@ genericAdder(number: 15)
 genericAdder(number: 15.0)
 
 protocol Numeric {
-    func *(lhs: Self, rhs: Self) -> Self
+    static func *(lhs: Self, rhs: Self) -> Self
 }
 
 extension Double: Numeric {}
