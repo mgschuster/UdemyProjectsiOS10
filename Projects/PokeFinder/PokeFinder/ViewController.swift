@@ -101,8 +101,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func showSightingsOnMap(location: CLLocation) {
         let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
         
-        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (
-            key, location) in
+        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
             
             if let key = key, let location = location {
                 let anno = PokeAnnotation(coordinate: location.coordinate, pokemonNumber: Int(key)!)
