@@ -41,9 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Please let us use your location.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Please let us use your location.</string>
+	<string>Location is required to show nearby Pokémon.</string>
 </dict>
 </plist>
