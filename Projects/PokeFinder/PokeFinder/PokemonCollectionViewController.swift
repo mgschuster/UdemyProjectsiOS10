@@ -91,7 +91,7 @@ class PokemonCollectionViewController: UIViewController, UICollectionViewDelegat
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 105, height: 105)
+        return CGSize(width: 85, height: 85)
         
     }
     
