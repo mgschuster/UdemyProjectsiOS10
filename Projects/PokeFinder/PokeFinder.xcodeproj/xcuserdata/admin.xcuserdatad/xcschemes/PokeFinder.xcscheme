@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "844ED2221F3E0983002E134E"
+               BlueprintIdentifier = "2BEA9D261E5B671F00D62526"
                BuildableName = "PokeFinder.app"
                BlueprintName = "PokeFinder"
                ReferencedContainer = "container:PokeFinder.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844ED2221F3E0983002E134E"
+            BlueprintIdentifier = "2BEA9D261E5B671F00D62526"
             BuildableName = "PokeFinder.app"
             BlueprintName = "PokeFinder"
             ReferencedContainer = "container:PokeFinder.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844ED2221F3E0983002E134E"
+            BlueprintIdentifier = "2BEA9D261E5B671F00D62526"
             BuildableName = "PokeFinder.app"
             BlueprintName = "PokeFinder"
             ReferencedContainer = "container:PokeFinder.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844ED2221F3E0983002E134E"
+            BlueprintIdentifier = "2BEA9D261E5B671F00D62526"
             BuildableName = "PokeFinder.app"
             BlueprintName = "PokeFinder"
             ReferencedContainer = "container:PokeFinder.xcodeproj">
