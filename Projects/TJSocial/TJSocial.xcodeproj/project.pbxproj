@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		84F376F81F41D3B300F05787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F376F71F41D3B300F05787 /* AppDelegate.swift */; };
-		84F376FA1F41D3B300F05787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F376F91F41D3B300F05787 /* ViewController.swift */; };
+		84F376FA1F41D3B300F05787 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F376F91F41D3B300F05787 /* SignInVC.swift */; };
 		84F376FD1F41D3B300F05787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F376FB1F41D3B300F05787 /* Main.storyboard */; };
 		84F376FF1F41D3B300F05787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F376FE1F41D3B300F05787 /* Assets.xcassets */; };
 		84F377021F41D3B300F05787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F377001F41D3B300F05787 /* LaunchScreen.storyboard */; };
+		84F3770A1F41D49D00F05787 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F377091F41D49D00F05787 /* GoogleService-Info.plist */; };
+		A1493C1A42F3A65EE22CFA00 /* Pods_TJSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C53B81B7AAB2E79B9FB30BC /* Pods_TJSocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C53B81B7AAB2E79B9FB30BC /* Pods_TJSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FA3BA8A4BE94EDEC22FCD8 /* Pods-TJSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TJSocial/Pods-TJSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		65A60E43B1F6DFDF71A054A3 /* Pods-TJSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TJSocial/Pods-TJSocial.release.xcconfig"; sourceTree = "<group>"; };
 		84F376F41F41D3B300F05787 /* TJSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F376F71F41D3B300F05787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F376F91F41D3B300F05787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F376F91F41D3B300F05787 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		84F376FC1F41D3B300F05787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F376FE1F41D3B300F05787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F377011F41D3B300F05787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F377031F41D3B300F05787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F377091F41D49D00F05787 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1493C1A42F3A65EE22CFA00 /* Pods_TJSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7836FB2A2888A1AEBC65549D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C53B81B7AAB2E79B9FB30BC /* Pods_TJSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84F376EB1F41D3B200F05787 = {
 			isa = PBXGroup;
 			children = (
 				84F376F61F41D3B300F05787 /* TJSocial */,
 				84F376F51F41D3B300F05787 /* Products */,
+				863198756819932D64D419C5 /* Pods */,
+				7836FB2A2888A1AEBC65549D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,48 @@
 		84F376F61F41D3B300F05787 /* TJSocial */ = {
 			isa = PBXGroup;
 			children = (
+				84F3770B1F41D8BB00F05787 /* Model */,
+				84F3770D1F41D8C700F05787 /* Controller */,
+				84F3770C1F41D8C100F05787 /* View */,
 				84F376F71F41D3B300F05787 /* AppDelegate.swift */,
-				84F376F91F41D3B300F05787 /* ViewController.swift */,
 				84F376FB1F41D3B300F05787 /* Main.storyboard */,
 				84F376FE1F41D3B300F05787 /* Assets.xcassets */,
 				84F377001F41D3B300F05787 /* LaunchScreen.storyboard */,
+				84F377091F41D49D00F05787 /* GoogleService-Info.plist */,
 				84F377031F41D3B300F05787 /* Info.plist */,
 			);
 			path = TJSocial;
+			sourceTree = "<group>";
+		};
+		84F3770B1F41D8BB00F05787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84F3770C1F41D8C100F05787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84F3770D1F41D8C700F05787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84F376F91F41D3B300F05787 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		863198756819932D64D419C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FA3BA8A4BE94EDEC22FCD8 /* Pods-TJSocial.debug.xcconfig */,
+				65A60E43B1F6DFDF71A054A3 /* Pods-TJSocial.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F377061F41D3B300F05787 /* Build configuration list for PBXNativeTarget "TJSocial" */;
 			buildPhases = (
+				E4E57B640CCDABD28658E5AB /* [CP] Check Pods Manifest.lock */,
 				84F376F01F41D3B300F05787 /* Sources */,
 				84F376F11F41D3B300F05787 /* Frameworks */,
 				84F376F21F41D3B300F05787 /* Resources */,
+				CEF0BF35C59B7FD9B43DB2D9 /* [CP] Embed Pods Frameworks */,
+				E7E537962A8CEAC90E2B4968 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F377021F41D3B300F05787 /* LaunchScreen.storyboard in Resources */,
+				84F3770A1F41D49D00F05787 /* GoogleService-Info.plist in Resources */,
 				84F376FF1F41D3B300F05787 /* Assets.xcassets in Resources */,
 				84F376FD1F41D3B300F05787 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +187,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEF0BF35C59B7FD9B43DB2D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TJSocial/Pods-TJSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJSocial/Pods-TJSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E57B640CCDABD28658E5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TJSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E537962A8CEAC90E2B4968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJSocial/Pods-TJSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84F376F01F41D3B300F05787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F376FA1F41D3B300F05787 /* ViewController.swift in Sources */,
+				84F376FA1F41D3B300F05787 /* SignInVC.swift in Sources */,
 				84F376F81F41D3B300F05787 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +374,7 @@
 		};
 		84F377071F41D3B300F05787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FA3BA8A4BE94EDEC22FCD8 /* Pods-TJSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8VMAJF52;
@@ -274,6 +388,7 @@
 		};
 		84F377081F41D3B300F05787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A60E43B1F6DFDF71A054A3 /* Pods-TJSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8VMAJF52;
@@ -304,6 +419,7 @@
 				84F377081F41D3B300F05787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
