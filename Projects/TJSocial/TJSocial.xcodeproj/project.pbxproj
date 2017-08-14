@@ -13,6 +13,11 @@
 		84F376FF1F41D3B300F05787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F376FE1F41D3B300F05787 /* Assets.xcassets */; };
 		84F377021F41D3B300F05787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F377001F41D3B300F05787 /* LaunchScreen.storyboard */; };
 		84F3770A1F41D49D00F05787 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F377091F41D49D00F05787 /* GoogleService-Info.plist */; };
+		84F3770F1F41E9FB00F05787 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3770E1F41E9FB00F05787 /* FancyView.swift */; };
+		84F377121F41EA9F00F05787 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F377111F41EA9F00F05787 /* Constants.swift */; };
+		84F377141F41EC4D00F05787 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F377131F41EC4D00F05787 /* RoundBtn.swift */; };
+		84F377161F41EDF700F05787 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F377151F41EDF700F05787 /* FancyField.swift */; };
+		84F377181F41EF2700F05787 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F377171F41EF2700F05787 /* FancyBtn.swift */; };
 		A1493C1A42F3A65EE22CFA00 /* Pods_TJSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C53B81B7AAB2E79B9FB30BC /* Pods_TJSocial.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +33,11 @@
 		84F377011F41D3B300F05787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F377031F41D3B300F05787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F377091F41D49D00F05787 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84F3770E1F41E9FB00F05787 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		84F377111F41EA9F00F05787 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84F377131F41EC4D00F05787 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		84F377151F41EDF700F05787 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		84F377171F41EF2700F05787 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 		84F376F61F41D3B300F05787 /* TJSocial */ = {
 			isa = PBXGroup;
 			children = (
+				84F377101F41EA8B00F05787 /* Utilities */,
 				84F3770B1F41D8BB00F05787 /* Model */,
 				84F3770D1F41D8C700F05787 /* Controller */,
 				84F3770C1F41D8C100F05787 /* View */,
@@ -94,6 +105,10 @@
 		84F3770C1F41D8C100F05787 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84F3770E1F41E9FB00F05787 /* FancyView.swift */,
+				84F377131F41EC4D00F05787 /* RoundBtn.swift */,
+				84F377151F41EDF700F05787 /* FancyField.swift */,
+				84F377171F41EF2700F05787 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -104,6 +119,14 @@
 				84F376F91F41D3B300F05787 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		84F377101F41EA8B00F05787 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				84F377111F41EA9F00F05787 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		863198756819932D64D419C5 /* Pods */ = {
@@ -250,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F377161F41EDF700F05787 /* FancyField.swift in Sources */,
 				84F376FA1F41D3B300F05787 /* SignInVC.swift in Sources */,
+				84F377141F41EC4D00F05787 /* RoundBtn.swift in Sources */,
 				84F376F81F41D3B300F05787 /* AppDelegate.swift in Sources */,
+				84F3770F1F41E9FB00F05787 /* FancyView.swift in Sources */,
+				84F377121F41EA9F00F05787 /* Constants.swift in Sources */,
+				84F377181F41EF2700F05787 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
